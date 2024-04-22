@@ -63,5 +63,11 @@ private:
 public: 
 	float Luas;
 
+	void input() { // methode input persegi panjang
 
+		cout << "Masukan Panjang = ";
+		cin >> panjang;
+		cout << "Masukan Lebarnya = ";
+		cin >> Lebar;
+	}
 
